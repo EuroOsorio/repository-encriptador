@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Encriptador - Euro Osorio</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style_encriptador.css">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                
+            </div>
+            
+        </header>
+
+        <main class="formato-cuerpo">
+
+            <section class="primer-panel">
+                <img src="Imagenes/Logo.png" class="formato-img1">
+                <textarea class="formato-ingresarTex" name="" id="ingresarTex" cols="30" rows="10" placeholder="Ingrese Texto Aqui" required></textarea>
+
+                <section class="formato-aviso">
+                    <img src="imagenes/Signo-Exclamacion.png" class="formato-img2">
+                    <p class="formato-mensaje">Solo letras minúsculas y sin acentos</p>
+                </section>
+
+                <section class="formato-botonED">
+                    <button class="formato-boton1" onclick="incEncriptar()">"Encriptar"</button>
+                    <button class="formato-boton2" onclick="incDesencriptar()">"Desencriptar"</button>
+                </section>
+
+            </section>
+
+            <section class="segundo-panel">
+                <textarea class="formato-mostrarTex" name="" id="mostrarTex" cols="30" rows="10" required></textarea>
+                <button class="formato-boton3" onclick="copiarText()">"Copiar"</button>
+            </section>
+
+
+        </main>
+
+        <script src="script/script.js"></script>
+
+        <footer>
+
+        </footer>
+    </body>
+</html>
